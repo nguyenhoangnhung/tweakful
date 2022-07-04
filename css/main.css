@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* common */
+.text-color {
+    color: #191919 !important;
+}
+.text-white{
+    color: #fff !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+.pull-top {
+    margin-top: 145px;
+}
+
+/* header */
+
+.navbar-brand {
+    margin-right: 53px;
+}
+
+.nav-link {
+    margin-right: 31px;
+    padding-left: 0 !important ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+}
+.btn-booking-header{
+    background-color: #2E4FD7;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.25px;
+    padding: 5px 20px;
+}
+
+
+/* cover */
+.cover {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cover-content {
+    margin-right: 105px;
+}
+
+.cover-title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 72px;
+    letter-spacing: -1.16px;
+    text-transform: capitalize;
+}
+
+.cover-desc {
+    padding-top: 30px;
+    width: 468px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    letter-spacing: -0.36px;
+}
+
+.cover-thumbnail img {
+    border-radius: 3px;
+}
+.btn-cover-group { 
+    display: flex;
+    flex-direction: row;
+    margin-top: 42px;
+}
+.btn-cover {
+    width: 198px;
+    margin-right: 21px;
+    background-color: #2E4FD7;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+    padding: 15px 25px;
+}
+.btn-cover-text{
+    margin-bottom: 0px;
+    padding-top: 5px;
+    width: 250px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+
+}
+
+.logos {
+    margin-top: 84px;
+    width: 66%;
+}
+
+/* features */
+
+.item {
+    margin-bottom: 50px;
+}
+.item:last-child {
+    margin-bottom: 0;
+}
+
+.icon {
+    background-color: #E7EBFC;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    margin-right: 24px;
+}
+
+.icon img {
+    padding: 15px;
+}
+
+.name-benefit {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.36px;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 72px;
+    letter-spacing: -0.94px;
+}
+
+.features-desc {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: -0.36px;
+    padding-top: 16px;
+}
+
+.btn-features {
+    margin-right: 21px;
+    background-color: #2E4FD7;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+    padding: 15px 25px;
+}
+
+/* benefit  */
+.section-title {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 62px;
+    letter-spacing: -0.94px;
+    padding-bottom: 38px;
+}
+.benefit-item {
+    margin-bottom: 48px;
+}
+.benefit-icon {
+    background: #E7EBFC;
+    width: 72px;
+    height: 72px;
+    border-radius: 100px;
+    padding-right: 50px;
+    margin-right: 40px;
+}
+.benefit-icon img{
+    padding: 24px;
+}
+
+.headline{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    /* identical to box height, or 142% */
+
+    letter-spacing: -0.43px;
+}
+.description{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: -0.29px;
+}
+
+/* case studies */
+
+.case-studies {
+    background-color: #E7EBFC;
+}
+.case-study-thumb {
+    margin: 119px 0 116px 0;
+}
+.case-study-thumb{
+    padding-left: 60px;
+}
+.carousel-inner {
+    margin-left: 95px;
+    margin-top: 119px;
+    height: 465px;
+}
+.story {
+    color: #191919;
+    text-align: left !important;
+    left: 0;
+    top: 0;
+    padding-top: 0;
+}
+.story>h3{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 52px;
+    letter-spacing: -0.76px;
+}
+.story>p{
+    /* width: 588px; */
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 52px;
+    /* or 124% */
+
+    letter-spacing: -0.76px;
+}
+.story>img{
+    margin-top: 32px;
+}
+.btn-case-study {
+    color: #2E4FD7;
+    padding-left: 0;
+    border: none;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    letter-spacing: -0.29px;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #B4B4B4;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+.carousel-indicators{
+    right: unset;
+    margin-left: 95px ;
+}
+.carousel-indicators .active{
+    background-color: #2E4FD7;
+}
+
+/* process */
+.circle{
+    height: 24px;
+    width: 24px;
+    background-color: #2E4FD7;
+    border-radius: 50%;
+    display: inline-block;
+}
+.indicator-line{
+    margin-left: 24px;
+    width: 183px;
+    height: 0px;
+
+    opacity: 0.4;
+    /* Global/Primary */
+
+    border: 1px dashed #2E4FD7;
+    align-self: center;
+}
+
+.indication{
+    margin-top: 52px;
+    margin-right: 30px;
+    margin-bottom: 16px;
+}
+.indication:last-child{
+    margin-right: 0;
+}
+/* cta */
+.cta{
+    background-color:  #E7EBFC;
+}
+
+.cta-title {
+    padding-top: 103px;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: -0.94px;
+}
+
+.btn-booking {
+    width: 198px;
+    margin-top: 60px;
+    background-color: #2E4FD7;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+    padding: 15px 25px;
+}
+
+.cta hr{
+    margin-top: 43px;
+    margin-bottom: 50px;
+}
+
+/* .cta-brands {
+    padding-bottom: 97px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.card {
+    border: none;
+    background-color: #E7EBFC;
+}
+.card-body{
+    padding: 0;
+}
+
+/* footer */
+
+.footer-section{
+    background-color: #052825;
+    padding-top: 70px;
+    padding-bottom: 44px;
+}
+.logo{
+    margin-bottom: 33px;
+}
+
+.about-footer>h5{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.32px;
+}
+
+.about-footer>p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+}
+
+.btn-footer {
+    color: #fff;
+    border: none;
+    padding: 10px 0 10px;
+}
+
+.btn-footer:hover{
+    color: #fff;
+}
+
+.footer-menu-01,.footer-menu-02 .nav{
+    float: right;
+}
+.footer-menu-01 .nav-link{
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 28px !important;
+}
+
+.footer-menu-02 .nav{
+    margin-top: 32px;
+}
+.footer-menu-02 .nav-link{
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 28px !important;
+}
